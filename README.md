@@ -11,5 +11,5 @@ NOTE: In VSC, you can also use type in `link:css` then press tab/enter to automa
     - [Gaegu](https://fonts.google.com/specimen/Gaegu?query=gae) (google font we used in the review)
 - [Meyer CSS Reset](https://meyerweb.com/eric/tools/css/reset/)
 (there are many resets but the aim is the same)
-- [CSS Units](https://www.w3schools.com/cssref/css_units.asp) (focus on using px, %, and vh/vw for now)
+- [CSS Units](https://www.w3schools.com/cssref/css_units.asp) (focus on using rem, px, %, and vh/vw for now)
 - [CSS Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) (if you need a certain element to use a certian style but its not working, it may be because of you specifity)

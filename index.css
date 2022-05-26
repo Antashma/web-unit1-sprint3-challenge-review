@@ -72,7 +72,6 @@ body {
 h1, h2  {
     letter-spacing: 3px;
     text-align:center;
-    font-family: 'Gaegu', cursive;
 }
 
 h1 {
@@ -126,22 +125,4 @@ h2 {
 
 .tropical {
     background-image: url('images/tropicals.jpg');
-}
-
-
-@media (max-width:300px) {
-    .container {
-        flex-direction: column;
-    }
-
-    .bg, .text {
-        width: 100vw;
-        height: 50vh;
-    }
-
-    .cacti {
-        order:-1;
-    }
-
-
 }
