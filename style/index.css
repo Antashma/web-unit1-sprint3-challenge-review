@@ -72,6 +72,7 @@ body {
 h1, h2  {
     letter-spacing: 3px;
     text-align:center;
+    font-family: 'Inconsolata', monospace;
 }
 
 h1 {
@@ -116,13 +117,40 @@ h2 {
 
 .succulents {
     /* use css images when it's decorative, use html imgs when it's important content-wise */
-    background-image: url('images/succulants.jpg');
+    background-image: url('../images/succulants.jpg');
 }
 
 .cacti {
-    background-image: url('images/cacti.jpg');
+    background-image: url('../images/cacti.jpg');
 }
 
 .tropical {
-    background-image: url('images/tropicals.jpg');
+    background-image: url('../images/tropicals.jpg');
+}
+
+@media (max-width:300px) {
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav a {
+        margin-left: 5px;
+    }
+
+    .container {
+        flex-direction: column;
+
+    }
+    .bg, .text {
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .cacti {
+        order: -1;
+    }
+
+
+
 }
